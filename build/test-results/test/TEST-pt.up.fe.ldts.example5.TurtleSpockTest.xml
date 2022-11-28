@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="pt.up.fe.ldts.example5.TurtleSpockTest" tests="3" skipped="0" failures="2" errors="0" timestamp="2022-11-24T16:22:54" hostname="VISAGIO-PESSOAL" time="0.622">
+<testsuite name="pt.up.fe.ldts.example5.TurtleSpockTest" tests="3" skipped="0" failures="2" errors="0" timestamp="2022-11-28T21:57:03" hostname="VISAGIO-PESSOAL" time="0.476">
   <properties/>
-  <testcase name="Rotate Left" classname="pt.up.fe.ldts.example5.TurtleSpockTest" time="0.601">
-    <failure message="Condition not satisfied:&#10;&#10;'W' == turtle.getDirection()&#10;    |  |      |&#10;    |  |      &lt;pt.up.fe.ldts.example5.TurtleWeast@2339aa3e turtle=pt.up.fe.ldts.example5.Turtle@cb5f010&gt;&#10;    |  &lt;pt.up.fe.ldts.example5.Turtle@cb5f010 row=5 column=5 direction=pt.up.fe.ldts.example5.TurtleWeast@2339aa3e&gt;&#10;    false&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+  <testcase name="Rotate Left" classname="pt.up.fe.ldts.example5.TurtleSpockTest" time="0.454">
+    <failure message="Condition not satisfied:&#10;&#10;'W' == turtle.getDirection()&#10;    |  |      |&#10;    |  |      &lt;pt.up.fe.ldts.example5.TurtleWeast@cb5f010 turtle=pt.up.fe.ldts.example5.Turtle@28808627&gt;&#10;    |  &lt;pt.up.fe.ldts.example5.Turtle@28808627 row=5 column=5 direction=pt.up.fe.ldts.example5.TurtleWeast@cb5f010&gt;&#10;    false&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
 
 'W' == turtle.getDirection()
     |  |      |
-    |  |      &lt;pt.up.fe.ldts.example5.TurtleWeast@2339aa3e turtle=pt.up.fe.ldts.example5.Turtle@cb5f010&gt;
-    |  &lt;pt.up.fe.ldts.example5.Turtle@cb5f010 row=5 column=5 direction=pt.up.fe.ldts.example5.TurtleWeast@2339aa3e&gt;
+    |  |      &lt;pt.up.fe.ldts.example5.TurtleWeast@cb5f010 turtle=pt.up.fe.ldts.example5.Turtle@28808627&gt;
+    |  &lt;pt.up.fe.ldts.example5.Turtle@28808627 row=5 column=5 direction=pt.up.fe.ldts.example5.TurtleWeast@cb5f010&gt;
     false
 
 	at pt.up.fe.ldts.example5.TurtleSpockTest.Rotate Left(TurtleSpockTest.groovy:16)
 </failure>
   </testcase>
-  <testcase name="Rotate Right" classname="pt.up.fe.ldts.example5.TurtleSpockTest" time="0.003">
-    <failure message="Condition not satisfied:&#10;&#10;'E' == turtle.getDirection()&#10;    |  |      |&#10;    |  |      &lt;pt.up.fe.ldts.example5.TurtleEast@28c806cc turtle=pt.up.fe.ldts.example5.Turtle@d1bdff3&gt;&#10;    |  &lt;pt.up.fe.ldts.example5.Turtle@d1bdff3 row=5 column=5 direction=pt.up.fe.ldts.example5.TurtleEast@28c806cc&gt;&#10;    false&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+  <testcase name="Rotate Right" classname="pt.up.fe.ldts.example5.TurtleSpockTest" time="0.005">
+    <failure message="Condition not satisfied:&#10;&#10;'E' == turtle.getDirection()&#10;    |  |      |&#10;    |  |      &lt;pt.up.fe.ldts.example5.TurtleEast@d1bdff3 turtle=pt.up.fe.ldts.example5.Turtle@60519f9e&gt;&#10;    |  &lt;pt.up.fe.ldts.example5.Turtle@60519f9e row=5 column=5 direction=pt.up.fe.ldts.example5.TurtleEast@d1bdff3&gt;&#10;    false&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
 
 'E' == turtle.getDirection()
     |  |      |
-    |  |      &lt;pt.up.fe.ldts.example5.TurtleEast@28c806cc turtle=pt.up.fe.ldts.example5.Turtle@d1bdff3&gt;
-    |  &lt;pt.up.fe.ldts.example5.Turtle@d1bdff3 row=5 column=5 direction=pt.up.fe.ldts.example5.TurtleEast@28c806cc&gt;
+    |  |      &lt;pt.up.fe.ldts.example5.TurtleEast@d1bdff3 turtle=pt.up.fe.ldts.example5.Turtle@60519f9e&gt;
+    |  &lt;pt.up.fe.ldts.example5.Turtle@60519f9e row=5 column=5 direction=pt.up.fe.ldts.example5.TurtleEast@d1bdff3&gt;
     false
 
 	at pt.up.fe.ldts.example5.TurtleSpockTest.Rotate Right(TurtleSpockTest.groovy:50)
 </failure>
   </testcase>
-  <testcase name="Forward" classname="pt.up.fe.ldts.example5.TurtleSpockTest" time="0.016"/>
+  <testcase name="Forward" classname="pt.up.fe.ldts.example5.TurtleSpockTest" time="0.017"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

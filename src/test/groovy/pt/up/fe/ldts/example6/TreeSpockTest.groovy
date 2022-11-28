@@ -37,7 +37,7 @@ class TreeSpockTest extends Specification {
             def result = tree.toString()
 
         then:
-            result == "Tree planted at Sat Aug 31 10:20:56 WEST 2002 in location 41.177772696363114,-8.59843522310257 (FEUP)"
+            result == "Tree planted at Sat Aug 31 10:20:56 BST 2002 in location 41.177772696363114,-8.59843522310257 (FEUP)"
     }
 
     def 'Add Appraisal'() {
